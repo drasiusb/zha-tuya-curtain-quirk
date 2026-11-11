@@ -106,7 +106,7 @@ class TuyaWindowCovering(NoManufacturerCluster, WindowCovering, TuyaLocalCluster
                 cluster_attr="curtain_switch",
                 attr_value=TUYA2ZB_COMMANDS[command_id],  # convert tuya2zigbee command
                 expect_reply=expect_reply,
-                manufacturer=-1,
+                manufacturer=None,
             )
             self.endpoint.device.command_bus.listener_event(
                 TUYA_MCU_COMMAND,
@@ -126,7 +126,7 @@ class TuyaWindowCovering(NoManufacturerCluster, WindowCovering, TuyaLocalCluster
                 cluster_attr="current_position_lift_percentage",
                 attr_value=lift_value,
                 expect_reply=expect_reply,
-                manufacturer=-1,
+                manufacturer=None,
             )
             self.endpoint.device.command_bus.listener_event(
                 TUYA_MCU_COMMAND,

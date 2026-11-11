@@ -59,8 +59,8 @@ class ZclCC(t.enum8):
 
 
 TUYA2ZB_COMMANDS = {
-    ZclCC.OPEN: TuyaCC.OPEN,
-    ZclCC.CLOSE: TuyaCC.CLOSE,
+    ZclCC.OPEN: TuyaCC.CLOSE,  # these motors run reversed
+    ZclCC.CLOSE: TuyaCC.OPEN,  # these motors run reversed
     ZclCC.STOP: TuyaCC.STOP,
 }
 

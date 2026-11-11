@@ -4,6 +4,12 @@ Custom [ZHA](https://www.home-assistant.io/integrations/zha/) quirk for the Tuya
 TS0601 curtain motor (`_TZE204_guvc7pdy`) in Home Assistant. ZHA has no built-in
 support for this model.
 
+## Device
+
+[MOES ZigBee Smart Electric Motorized Splicing Curtain Tracks System](https://moeshouse.com/products/zigbee-electric-curtain-system)
+(SKU `CM-PJ-T220-Z`): a Tuya curtain motor with a DIY splicing track and RF
+remote. It pairs with ZHA as `_TZE204_guvc7pdy` / `TS0601`.
+
 ## Install
 
 1. Copy `Moes_ZigBee_SplitCurtain.py` to `/config/custom_zha_quirks/`.

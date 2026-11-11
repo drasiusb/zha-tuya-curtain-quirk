@@ -10,6 +10,8 @@ support for this model.
 (SKU `CM-PJ-T220-Z`): a Tuya curtain motor with a DIY splicing track and RF
 remote. It pairs with ZHA as `_TZE204_guvc7pdy` / `TS0601`.
 
+Assembly videos: [Google Drive](https://drive.google.com/drive/folders/1PjpF5Hz614iVJwVktwSWr9fHJbxDgWbf?usp=sharing)
+
 ## Pairing
 
 Put the motor into pairing mode by pressing its button **3 times, about
